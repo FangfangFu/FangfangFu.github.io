@@ -23,9 +23,6 @@ ody {
 	font-size: 20px;
 	padding-bottom: 0;
 }
-.navigation ul li{
-	padding-right: 30px;
-}
 .content {
 	padding: 80px 30px 80px 30px;
 	background-color: #F0F0F0;
@@ -53,7 +50,7 @@ p {
 }
 ul li{
 	display: inline;
-	padding-right: 10px
+	padding-right: 30px;
 }
 
 
