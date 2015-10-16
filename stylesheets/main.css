@@ -1,4 +1,4 @@
-body {
+ody {
 	width: 100%;
     Height: 100%
 	margin: auto;
@@ -8,14 +8,26 @@ body {
 }
 .navigation {
 	text-align: center;
-	background: #b56663;
-	color: white;
-	padding: 24px 0 24px 0;
-	
+	padding: 24px 0 3px 0;
+	color: #F08080;
+	background-image: url("../images/cartoonBirds.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.navigation h1{
+	padding-bottom: 40px;
+	padding-top: 5px;
+	font-size: 35px;
+}
+.navigation ul{
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.navigation ul li{
+	padding-right: 30px;
 }
 .content {
-	padding: 25px 30px 30px 30px;
-	margin-bottom: 30px;
+	padding: 80px 30px 80px 30px;
 	background-color: #F0F0F0;
 }
 .footer {
@@ -26,7 +38,7 @@ body {
 	padding-bottom: 10px;
 	color: white;
 	text-align: center;
-	background-color: #b56663;
+	background-color: #00BFFF;
 }
 p {
 	font-size: 24px;
@@ -35,11 +47,7 @@ p {
 	margin-top: 200px;
 	margin-bottom: 200px;
 }
-#profile-photo {
-	float: left;
-	padding: 20px;
-	border-radius: 50%;
-}
+
 。nav a{
 	color: white;
 }
