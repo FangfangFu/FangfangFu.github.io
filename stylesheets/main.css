@@ -1,13 +1,13 @@
 /*All colors:
-1. #AEB05D
-2. #DCD191
-3. #D3A46E
-4. #E39871
-5. #DF7D60
+1. #AEB05D green
+2. #DCD191 yellowgreen
+3. #D3A46E clay
+4. #E39871 lightorange
+5. #DF7D60 light red
 */
 body {
-	width: 100%;
-    Height: 100%
+	width: 60%;
+    height: 100%;
 	margin: auto;
 	background-color: white;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -21,7 +21,6 @@ body {
 .title h1 {
 	padding-bottom: 40px;
 	padding-top: 5px;
-	font-size: 35px;
     color: #DF7D60;
 }
 .navbar {
@@ -40,10 +39,9 @@ body {
 }
 .content {
 	padding: 80px 30px 80px 30px;
-	background-color: #F0F0F0;
+	background-color: white;
 }
 .footer {
-	
 	border-top: solid;
 	padding-left: 24px;
 	padding-right: 24px;
@@ -53,12 +51,9 @@ body {
 	background-color:  #D3A46E;
 }
 p {
-	font-size: 24px;
+    font-size: 1.35em;
 }
-.caption {
-	margin-top: 200px;
-	margin-bottom: 200px;
-}
+
 
 
 

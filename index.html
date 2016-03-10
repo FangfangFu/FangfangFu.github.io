@@ -2,19 +2,54 @@
 <html>
 <header>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<script type="text/javascript" src="scripts/jquery-2.1.4.min.js" ></script>
 	<style>
 	#profile-photo {
-	  float: left;
-	  padding: 20px;
 	  border-radius: 50%;
+      width: 15em;
+      height: 15em;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+    .content1 {
+        flex-grow: 1;
+        margin-right: 30px;
+    }
+    .content2{
+        flex-grow: 1;
+        margin-right: 30px;
+    }
+    .content3{
+        flex-grow: 1;   
+        flex-wrap: wrap;
+    }
+    p.thick {
+        font-weight: bold;
+    }
+    button {
+        width: 250px;
+        height: 30px;
+        margin-bottom: 20px;
+        font-size: 1em;
+        background-color: #E39871;
+    }
+    #email {
+        background-color: #D3A46E;
+    }
+    #qq {
+        background-color: #DF7D60;
     }
 	</style>
 </header>
 <body>
 	<div class="box">
         <div class="title">
-		  <h1>Fangfang 方芳</h1>
+		  <h1>Fangfang Fu</h1>
         </div>
 		<ul class="navbar">
 		  <li><a href="index.html">Home</a></li>
@@ -22,14 +57,37 @@
           <li><a href="project.html">Projects</a></li>
 		  <li><a href="garden.html">Garden</a></li>
 		  <li><a href="cooking.html">Cooking</a></li>
+          <li>
+              <a href="#">Contact</a>
+              <ul>
+                  <li><p>Tel: (219) 916-1330</p>
+                  <li><a href="http://mail.google.com">fangfang@fufangfang.com</a></li>
+                  <li><a href="http://www.facebook.com/fangfang.fu.315">Facebook</a></li>
+                  <li><a href="http://user.qzone.qq.com/450490365">QQzone</a></li>
+              </ul>
+          </li>
 		</ul>
         <div class="content">
-            <img id="profile-photo" src="images/fangfang.png">
-            <p class="caption">Welcome to Fangfang Fu's website(欢迎来到付方芳的网站)</p>
+            <div class="content1">
+              <img id="profile-photo" src="images/fangfang.png">
+            </div>
+            <div class="content2">
+              <h1>WEB DEVELOPER</h1>
+              <p>Welcome to Fangfang's website. I am a developer. Right now I am a sophomome student of computer science major and focusing on web development. I am looking for a developer internship. Feel free to look at my projects and do not hesitate to contact me!</p>
+            </div>
+            <div class="content3">
+              <p class="thick">Contact information</p>
+              <p>Tel: (219) 916-1330</p>
+              <button type="button" id="email">fangfang@fufangfang.com</button>
+              <button type="button" id="facebook">Facebook</button>
+              <button type="button" id="qq">QQzone</button>
+            </div>
         </div>
         <div class="footer">
             <p>&copy; Fangfang Fu(付方芳) - 2015</p>
         </div>
     </div>
+    <script type="text/javascript" src="scripts/jquery-2.1.4.min.js" ></script>
+    <script type="text/javascript" src="scripts/scripts.js" ></script>
 </body>
 </html>
