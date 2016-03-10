@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 	<style>
 	#profile-photo {
@@ -9,12 +9,11 @@
       height: 15em;
     }
     .content {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: space-around;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;  
     }
     .content1 {
         flex-grow: 1;
@@ -45,7 +44,7 @@
         background-color: #DF7D60;
     }
 	</style>
-</header>
+</head>
 <body>
 	<div class="box">
         <div class="title">
@@ -58,8 +57,8 @@
 		  <li><a href="garden.html">Garden</a></li>
 		  <li><a href="cooking.html">Cooking</a></li>
           <li>
-              <a href="#">Contact</a>
-              <ul>
+              <a  class="contact" href="#">Contact<span class='caret'></span></a>
+              <ul class="slidedown">
                   <li><p>Tel: (219) 916-1330</p>
                   <li><a href="http://mail.google.com">fangfang@fufangfang.com</a></li>
                   <li><a href="http://www.facebook.com/fangfang.fu.315">Facebook</a></li>

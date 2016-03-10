@@ -27,12 +27,15 @@ body {
     background-color: #DCD191;
     text-align: center;
 	font-size: 20px;
-	padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
-.navbar li{
-	display: inline;
-	padding-right: 30px;
+ul {
+    list-style-type: none;
 }
 .navbar a{
     color: #DF7D60; 
@@ -53,9 +56,53 @@ body {
 p {
     font-size: 1.35em;
 }
+.contact_background{
+    position: relative;
+    background: #E39871;
+    color: white;
+}
+.slidedown{
+    position: absolute;
+    background: #E39871;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 0.55em;
+}
+.slidedown li{
+    width: 11.8em;  
+    height: 4em;  
+}
+.slidedown a{
+    color: white;
+}
+.slidedown li:hover{
+    background: #AEB05D;
+}
 
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
 
-
+a:hover{
+    color: white;
+}
+a:click{
+    color: white;
+}
 
 
 
