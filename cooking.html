@@ -2,19 +2,40 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     <style>
+    #cook1 {
+      width: 15em;
+      height: 15em;
+    }
     .content {
+      padding-top: 2em;
+    }
+    .content h1 {
+      text-align: center;
+    } 
+    .content1{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-around;
       align-items: center;  
-    }        
+    }
+    .container1 {
+        flex-grow: 1;
+        margin-right: 3%;
+    }
+    .container2{
+        flex-grow: 1;
+        margin-right: 3%;
+    } 
+    ol li{
+      word-wrap: break-word;  
+    } 
     </style>
 </head>
 <body>
 	<div class="box">
         <div class='title'>
-            <h1>Fangfang 方芳</h1>
+            <h1>Fangfang</h1>
         </div>
 		<ul class="navbar">
 		  <li><a href="index.html">Home</a></li>
@@ -34,7 +55,23 @@
 		</ul>
         <div class="content">
           <h1>Cooking</h1>
-          <p>Hello everyone, welcome to Fangfang's Kitchen. If you want to see Fangfang's cooking, please come back later. Kitchen is building...</p>
+          <div class="content1">
+            <div class="container1">
+              <img id="cook1" src="images/zongzi.jpg">
+              <figcaption>Fig.1 - A bowl of pre-cooked meat Zongzi</figcaption>
+            </div>
+            <div class="container2">
+               <h2>Recipe 1</h2>
+               <ol>
+                   <li>Materials: Sticky rice, Reed leaf, Pork, Soy sauce, Sugar, Salt, Cooking wine, String</li>
+                   <li>Put sticky rice in warm water over one night</li>
+                   <li>Boil reed leaves for 30 minutes and leave them in hot water for 2-3 hours</li>
+                   <li>Mix pork with proper soy sauce, sugar, salt and cooking wine for 3 hours</li>
+                   <li>Put the sticky rice in reed leaves and wrap the leaves</li>
+                   <li>Put wrapped Zongzi in water and boil them 4 hours</li>
+               </ol> 
+            </div>
+          </div>
         </div>
         <div class="footer">
             <p>&copy; Fangfang Fu(付方芳) - 2015</p>
