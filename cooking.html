@@ -1,45 +1,39 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-    <style>
-    #cook1 {
+	<style>
+	#zongzi {
       width: 15em;
       height: 15em;
     }
     .content {
-      padding-top: 2em;
-    }
-    .content h1 {
-      text-align: center;
-    } 
-    .content1{
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-around;
-      align-items: center; 
+      align-items: center;  
     }
-    .container1 {
+    .content1 {
         flex-grow: 1;
         margin-right: 3%;
     }
-    .container2{
+    .content2{
         flex-grow: 1;
         margin-right: 3%;
-    } 
-    ol li{
-      word-wrap: break-word;  
-    } 
-    </style>
+    }
+    figcaption {
+        text-align: center;
+    }
+	</style>
 </head>
 <body>
 	<div class="box">
-        <div class='title'>
-            <h1>Fangfang</h1>
+        <div class="title">
+		  <h1>Fangfang Fu</h1>
         </div>
 		<ul class="navbar">
 		  <li><a href="index.html">Home</a></li>
-		  <li><a href="profile.html">Profile</a></li>
           <li><a href="project.html">Projects</a></li>
 		  <li><a href="garden.html">Garden</a></li>
 		  <li><a href="cooking.html">Cooking</a></li>
@@ -54,14 +48,12 @@
           </li>
 		</ul>
         <div class="content">
-          <h1>Cooking</h1>
-          <div class="content1">
-            <div class="container1">
-              <img id="cook1" src="images/zongzi.JPG">
-              <figcaption>Fig.1 - A bowl of pre-cooked meat Zongzi</figcaption>
+            <div class="content1">
+              <img id="zongzi" src="images/zongzi.JPG">
+              <figcaption>Fig.1 - Meat Zongzi</figcaption>
             </div>
-            <div class="container2">
-               <h2>Recipe 1</h2>
+            <div class="content2">
+              <h2>Recipe 1</h2>
                <ol>
                    <li>Materials: Sticky rice, Reed leaf, Pork, Soy sauce, Sugar, Salt, Cooking wine, String</li>
                    <li>Put sticky rice in warm water over one night</li>
@@ -71,7 +63,7 @@
                    <li>Put wrapped Zongzi in water and boil them 4 hours</li>
                </ol> 
             </div>
-          </div>
+            
         </div>
         <div class="footer">
             <p>&copy; Fangfang Fu(付方芳) - 2015</p>

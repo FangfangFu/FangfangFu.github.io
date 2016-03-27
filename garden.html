@@ -1,45 +1,32 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-    <style>
-     img {
+	<style>
+	img {
       width: 20em;
       height: 15em;
     }
     .content {
-      padding-top: 2em;
-    }
-    .content h1 {
-        text-align: center;
-    } 
-    .content1, .content2{
       display: flex;
       flex-direction: row;
-      margin-left: 10%;  
-    }
-    .content1 {
-        margin-bottom: 6%;
-    }
-    .container1 {
-        flex-grow: 1;
-    }
-    .container2{
-        flex-grow: 1;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;  
     }
     figcaption {
-        padding-left: 20%;
+        text-align: center;
+        margin-bottom: 10px;
     }
-          
-    </style>
+	</style>
 </head>
 <body>
 	<div class="box">
-        <div class='title'>
-            <h1>Fangfang</h1>
+        <div class="title">
+		  <h1>Fangfang Fu</h1>
         </div>
 		<ul class="navbar">
 		  <li><a href="index.html">Home</a></li>
-		  <li><a href="profile.html">Profile</a></li>
           <li><a href="project.html">Projects</a></li>
 		  <li><a href="garden.html">Garden</a></li>
 		  <li><a href="cooking.html">Cooking</a></li>
@@ -54,27 +41,22 @@
           </li>
 		</ul>
         <div class="content">
-          <h1>Garden</h1>
-          <div class="content1">
-              <div class="container1">
-                <img id="flower1" src="images/image1.JPG">
-                <figcaption>Fig.1 - Mackinac Island</figcaption>
-              </div>
-              <div class="container2">
-                <img id="flower2" src="images/image2.JPG">
-                <figcaption>Fig.2 - Mackinac Island</figcaption>
-              </div>
-          </div>
-          <div class="content2">
-              <div class="container1">
-                <img id="flower3" src="images/image3.JPG">
-                <figcaption>Fig.3 - Mackinac Island</figcaption>
-              </div>
-              <div class="container2">
-                <img id="flower4" src="images/image4.JPG">
-                <figcaption>Fig.4 - Mackinac Island</figcaption>
-              </div>
-          </div>
+            <div class="content1">
+              <img id="flower1" src="images/image1.JPG">
+              <figcaption>Fig.1 - Garden1</figcaption>
+            </div>
+            <div class="content2">
+              <img id="flower2" src="images/image2.JPG">
+              <figcaption>Fig.2 - Garden2</figcaption>
+            </div>
+            <div class="content1">
+              <img id="flower3" src="images/image3.JPG">
+              <figcaption>Fig.3 - Garden3</figcaption>
+            </div>
+            <div class="content2">
+              <img id="flower4" src="images/image4.JPG">
+              <figcaption>Fig.4 - Garden4</figcaption>
+            </div>
         </div>
         <div class="footer">
             <p>&copy; Fangfang Fu(付方芳) - 2015</p>
