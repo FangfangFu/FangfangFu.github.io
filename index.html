@@ -1,93 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<style>
-	#profile-photo {
-	  border-radius: 50%;
-      width: 15em;
-      height: 15em;
-    }
-    .content {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      align-items: center;  
-    }
-    .content1 {
-        flex-grow: 1;
-        margin-right: 3%;
-    }
-    .content2{
-        flex-grow: 1;
-        margin-right: 3%;
-    }
-    .content3{
-        flex-grow: 1;   
-        flex-wrap: wrap;
-        border: 0.2em dashed #AEB05D;
-        
-    }
-    p.thick {
-        font-weight: bold;
-    }
-    button {
-        width: 100%;
-        height: 30px;
-        margin-bottom: 4%;
-        font-size: 1em;
-        background-color: #E39871;
-    }
-    #email {
-        background-color: #D3A46E;
-    }
-    #qq {
-        background-color: #DF7D60;
-    }
-	</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personal Website of Fangfang Fu</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-	<div class="box">
-        <div class="title">
-		  <h1>Fangfang Fu</h1>
-        </div>
-		<ul class="navbar">
-		  <li><a href="index.html">Home</a></li>
-          <li><a href="project.html">Projects</a></li>
-		  <li><a href="garden.html">Garden</a></li>
-		  <li><a href="cooking.html">Cooking</a></li>
-          <li>
-              <a  class="contact" href="#">Contact<span class='caret'></span></a>
-              <ul class="slidedown">
-                  <li><p>Tel: (219) 916-1330</p>
-                  <li><a href="http://mail.google.com">fangfang@fufangfang.com</a></li>
-                  <li><a href="http://www.facebook.com/fangfang.fu.315">Facebook</a></li>
-                  <li><a href="http://user.qzone.qq.com/450490365">QQzone</a></li>
-              </ul>
-          </li>
-		</ul>
-        <div class="content">
-            <div class="content1">
-              <img id="profile-photo" src="images/fangfang.png">
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Fangfang Fu</a>
             </div>
-            <div class="content2">
-              <h1>WEB DEVELOPER</h1>
-              <p>Welcome to Fangfang's website. I am a developer. Right now I am a sophomore student of computer science major and focusing on web development. I am looking for a developer internship. Feel free to look at my projects and do not hesitate to contact me!</p>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="content3">
-              <p class="thick">Contact information</p>
-              <p>Tel: (219) 916-1330</p>
-              <button type="button" id="email">fangfang@fufangfang.com</button>
-              <button type="button" id="facebook">Facebook</button>
-              <button type="button" id="qq">QQzone</button>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Fangfang Fu</h1>
+                <hr>
+                <p>Want to learn more about me and my interest? Read below! </p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About me</a>
             </div>
         </div>
-        <div class="footer">
-            <p>&copy; Fangfang Fu(付方芳) - 2015</p>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get To Know Me!</h2>
+                    <hr class="light">
+                    <p class="text-faded">My name is Fangfang Fu. I'm a software developer who is studying computer science in University of Illinois at Chicago. I love programming and always pursue to learn more about computer related technologies.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Skills</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="scripts/jquery-2.1.4.min.js" ></script>
-    <script type="text/javascript" src="scripts/scripts.js" ></script>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Technical Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-laptop wow bounceIn text-primary"></i>
+                        <h3>Languages</h3>
+                        <p class="text-muted">C, C++, Java</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-server wow bounceIn text-primary"></i>
+                        <h3>Web Development</h3>
+                        <p class="text-muted">JavaScript, HTML, CSS, jQuery, JSON, AJAX</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-database wow bounceIn text-primary"></i>
+                        <h3>Database</h3>
+                        <p class="text-muted">SQL</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-gears wow bounceIn text-primary"></i>
+                        <h3>Development Tools</h3>
+                        <p class="text-muted">Git, Visual Studio, Eclipse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/benchmark.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/benchmark.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Java/SQL
+                                </div>
+                                <div class="project-name">
+                                    IoT Database Benchmark
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/FangRunner.PNG" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/FangRunner.PNG" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    C++/SFML
+                                </div>
+                                <div class="project-name">
+                                    FangRunner Game
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/Chatroom.PNG" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/Chatroom.PNG" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    JavaScript/HTML/CSS/Node.js
+                                </div>
+                                <div class="project-name">
+                                    Chatroom client and server
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/snake.PNG" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/snake.PNG" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    C++/SFML
+                                </div>
+                                <div class="project-name">
+                                    Greedy Snake
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/pigprofile.PNG" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/pigprofile.PNG" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    JavaScript/HTML/CSS
+                                </div>
+                                <div class="project-name">
+                                    Pig Profile Website (first simple website)
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/garden.JPG" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/garden.JPG" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    My favorite Garden
+                                </div>
+                                <div class="project-name">
+                                    Mackinac Island Garden
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Check Out My GitHub!</h2>
+                <a href="https://github.com/FangfangFu" class="btn btn-default btn-xl sr-button">Go to GitHub</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Need a developer? Give me an email or call to set something up.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>+1(219)916-1330</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">fangfang@fufangfang.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
 </body>
+
 </html>
